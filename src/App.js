@@ -22,7 +22,7 @@ const NoMatch = ({ location }) => (
 function App() {
   return (
     <div className="App">
-      <HelloMessage name="Everyone" />
+      <HelloMessage name="Yunah" />
       <HelloMessage name="There" />
       <br />
       <Switch>
