@@ -21,7 +21,7 @@ function App() {
 	return (
 		<div className="App">
 			<div>ㄹㅇ 개빡치네</div>
-			<HelloMessage name="Everyone" />
+			<HelloMessage name="Everyonennnnnnnnnnn   TESTING" />
 			<HelloMessage name="There" />
 			<br />
 			<Switch>
