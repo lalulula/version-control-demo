@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <HelloMessage name="Everyone" />
-      <HelloMessage name="ThereYOKI2" />
+      <HelloMessage name="ThereYOKI3" />
       <br />
       <Switch>
         <Route path="/someRandomPath" component={<>someRandomPath</>} />
