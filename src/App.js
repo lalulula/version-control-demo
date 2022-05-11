@@ -49,23 +49,5 @@ function App() {
   </div>
 );
 
-function App() {
-  return (
-    <div className="App">
-      <HelloMessage name="Everyone" />
-      <HelloMessage name="ThereYOKI3" />
-      <br />
-      <Switch>
-        <Route path="/someRandomPath" component={<>someRandomPath</>} />
-        <Route path="/shows" component={ShowList} />
-        <Route path="/functions" component={FunctionPage} />
-        <Route path="/classes" component={ClassPage} />
-        <Route path="/form" component={FormExample} />
-        <Route exact path="/" render={() => <Redirect to="/functions" />} />
-        <Route component={NoMatch} />
-      </Switch>
-    </div>
-  );
-}
 
 export default App;
