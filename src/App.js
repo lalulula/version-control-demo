@@ -10,10 +10,13 @@ const NoMatch = ({ location }) => (
   <div>
     <strong>Error!</strong> No route found matching:
     <div>
-        <strong>ErrorERRORORRORORROROROROROOR에라ㅔㅇ라ㅔ아레아레ㅏ에랑레아레ㅏ!</strong> No route found matching:
-        <div>
-            <code>{location.pathname}</code>
-        </div>
+      <strong>
+        ErrorERRORORRORORROROROROROOR에라ㅔㅇ라ㅔ아레아레ㅏ에랑레아레ㅏ!
+      </strong>{" "}
+      No route found matching:
+      <div>
+        <code>{location.pathname}</code>
+      </div>
       <code>{location.pathname}</code>
     </div>
   </div>
@@ -23,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <HelloMessage name="Everyone" />
-      <HelloMessage name="There" />
+      <HelloMessage name="ThereYOKI3" />
       <br />
       <Switch>
         <Route path="/someRandomPath" component={<>someRandomPath</>} />
