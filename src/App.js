@@ -34,6 +34,38 @@ function App() {
 			</Switch>
 		</div>
 	);
+  <div>
+    <strong>Error!</strong> No route found matching:
+    <div>
+      <strong>
+        ErrorERRORORRORORROROROROROOR에라ㅔㅇ라ㅔ아레아레ㅏ에랑레아레ㅏ!
+      </strong>{" "}
+      No route found matching:
+      <div>
+        <code>{location.pathname}</code>
+      </div>
+      <code>{location.pathname}</code>
+    </div>
+  </div>
+);
+
+function App() {
+  return (
+    <div className="App">
+      <HelloMessage name="Everyone" />
+      <HelloMessage name="ThereYOKI2" />
+      <br />
+      <Switch>
+        <Route path="/someRandomPath" component={<>someRandomPath</>} />
+        <Route path="/shows" component={ShowList} />
+        <Route path="/functions" component={FunctionPage} />
+        <Route path="/classes" component={ClassPage} />
+        <Route path="/form" component={FormExample} />
+        <Route exact path="/" render={() => <Redirect to="/functions" />} />
+        <Route component={NoMatch} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
