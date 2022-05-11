@@ -8,7 +8,7 @@ import ShowList from "./components/ShowList";
 
 const NoMatch = ({location}) => (
     <div>
-        <strong>ErrorERRORORRORORROROROROROOR!</strong> No route found matching:
+        <strong>ErrorERRORORRORORROROROROROOR에라ㅔㅇ라ㅔ아레아레ㅏ에랑레아레ㅏ!</strong> No route found matching:
         <div>
             <code>{location.pathname}</code>
         </div>
