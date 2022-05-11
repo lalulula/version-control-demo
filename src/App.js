@@ -26,11 +26,6 @@ function App() {
 			<br />
 			<Switch>
 				<Route path="/shows" component={ShowList} />
-				<Route path="/functions" component={FunctionPage} />
-				<Route path="/classes" component={ClassPage} />
-				<Route path="/form" component={FormExample} />
-				<Route exact path="/" render={() => <Redirect to="/functions" />} />
-				<Route component={NoMatch} />
 			</Switch>
 		</div>
 	);
